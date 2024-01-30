@@ -19,6 +19,10 @@ a {
   color: inherit;
 }
 
+p {
+  margin: 0;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   font-size: 14px;
@@ -33,17 +37,11 @@ body {
   margin: 0 auto;
 }
 
-.header {}
-
 .header__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.logo {}
-
-.logo__img {}
 
 .menu {
   margin-right: 70px;
@@ -53,7 +51,6 @@ body {
   display: flex;
 }
 
-.menu__item {}
 
 .menu__item+.menu__item {
   padding-left: 10px;
@@ -78,8 +75,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
-.bike__column {}
 
 .bike__column-slider {
   flex-basis: 630px;
@@ -119,10 +114,6 @@ body {
   letter-spacing: 1.1em;
 
 }
-
-.bike-slider {}
-
-.bike-slider__item {}
 
 .bike__list {
   margin-top: 25px;
@@ -180,4 +171,88 @@ body {
 .slick-dots button:hover,
 .slick-active button {
   background-color: #FF4040;
+}
+
+.info {
+  margin-bottom: 150px;
+}
+
+.info__inner {
+  display: flex;
+}
+
+.info__img {
+  margin-right: 60px;
+  flex-basis: 570px;
+  object-fit: cover;
+}
+
+.info__list {
+  flex-basis: 490px;
+}
+
+.info__item+.info__item {
+  padding-top: 50px;
+}
+
+.info__item-title {
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.info__item-text {
+  max-width: 450px;
+}
+
+
+.specifications {
+  margin-bottom: 150px;
+}
+
+.specifications__title-main {
+  margin: 0 0 40px;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.specifications__inner {
+  display: flex;
+}
+
+.specifications__items {
+  flex-basis: 570px;
+  margin-right: 60px;
+}
+
+.specifications__list+.specifications__list {
+  padding-top: 30px;
+}
+
+.specifications_title {
+  padding: 2px 0 3px;
+  text-transform: uppercase;
+  background-color: #131313;
+  color: #fff;
+  font-weight: 700;
+}
+
+.specifications__line {
+  display: flex;
+  padding-top: 5px;
+}
+
+.specifications__name {
+  flex-basis: 285px;
+  padding-right: 25px;
+}
+
+.specifications__descr {
+  flex-basis: 285px;
+}
+
+.specifications__img {
+  align-self: center;
 }
