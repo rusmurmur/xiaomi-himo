@@ -1,5 +1,5 @@
 $(function(){
-  $('.bike-slider').slick({
+  $('.bike-slider,.slider__item').slick({
     arrows:false,
     dots: true,
     fade:true,
